@@ -1,0 +1,25 @@
+schemas = {
+    "cb_transactions": {
+        "amount_instructedAmount": "float",
+        "amount_currency": "string",
+        "counterpartAccount_identification_iban": "string",
+        "counterpartAccount_identification_accountName": "string",
+        "counterpartAccount_identification_sortCode": "string",
+        "counterpartAccount_identification_accountNumber": "string",
+        "counterpartAccount_identification_reference": "string",
+        "debitCreditCode": "string",
+        "endToEndIdentifier": "string",
+        "transactionId": "string",
+        "transactionReference": "string",
+        "transactionTime": "string",
+        "status": "string",
+        "ultimateRemitterAccount_id": "string",
+        "ultimateRemitterAccount_iban": "string",
+        "ultimateBeneficiaryAccount_id": "string",
+        "ultimateBeneficiaryAccount_iban": "string",
+        "counterpartAccount_identification_other_identification": "string",
+        "counterpartAccount_identification_other_schemeName_code": "string",
+        "date": "date",
+        "timestamp_extracted": "timestamp",
+    }
+}

@@ -1,0 +1,6 @@
+pandas
+requests
+awswrangler
+flatten_json
+charset-normalizer
+pytest-asyncio
